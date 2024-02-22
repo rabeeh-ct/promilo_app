@@ -110,7 +110,7 @@ class LoginScreen extends StatelessWidget {
               text: "Submit",
               isLoading: false,
               onPressed: () {
-                Get.toNamed(RouteList.homeScreen);
+                Get.toNamed(RouteList.navigationScreen);
               },
             ),
             10.sBH,

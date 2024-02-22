@@ -6,8 +6,13 @@ import '../data/repository/data_repository_impl.dart';
 import '../domain/repository/data_repository.dart';
 import '../domain/usecases/change_locale.dart';
 import '../domain/usecases/theme_mode_save_usecase.dart';
+import '../presentation/screens/account_screen/account_screen_controller.dart';
+import '../presentation/screens/explore_screen/explore_screen_controller.dart';
 import '../presentation/screens/home_screen/home_screen_controller.dart';
 import '../presentation/screens/login_screen/login_screen_controller.dart';
+import '../presentation/screens/meetup_screen/meetup_screen_controller.dart';
+import '../presentation/screens/navigation_screen/navigation_screen_controller.dart';
+import '../presentation/screens/prolet_screen/prolet_screen_controller.dart';
 
 class DependencyInjection {
   static init() {
@@ -27,6 +32,11 @@ class DependencyInjection {
     //     fenix: true);
     Get.lazyPut(() => ChangeLocale(), fenix: true);
     Get.lazyPut(() => LoginScreenController(), fenix: true);
+    Get.lazyPut(() => MeetUpScreenController(), fenix: true);
+    Get.lazyPut(() => ProletScreenController(), fenix: true);
+    Get.lazyPut(() => ExploreScreenController(), fenix: true);
+    Get.lazyPut(() => AccountScreenController(), fenix: true);
+    Get.lazyPut(() => NavigationScreenController(), fenix: true);
 
   }
 }
