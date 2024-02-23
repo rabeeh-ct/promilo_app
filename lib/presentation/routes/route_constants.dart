@@ -9,5 +9,6 @@ class RouteList {
   static const String exploreScreen = '/exploreScreen';
   static const String accountScreen = '/accountScreen';
   static const String navigationScreen = '/navigationScreen';
+  static const String descriptionScreen = '/descriptionScreen';
 
 }

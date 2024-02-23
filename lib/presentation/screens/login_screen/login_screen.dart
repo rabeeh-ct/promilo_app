@@ -106,6 +106,20 @@ class LoginScreen extends StatelessWidget {
               ],
             ),
             5.sBH,
+            // ElevatedButton(
+            //   style: ElevatedButton.styleFrom(
+            //     disabledForegroundColor:Colors.blue
+            //   ),
+            //   onPressed: () {},
+            //   child: Text(
+            //     "Submit",
+            //     // textScaleFactor: 1.0,
+            //     style: Theme.of(context).textTheme.titleMedium?.copyWith(
+            //         // color: textColor,
+            //         fontWeight: FontWeight.w600,
+            //         fontSize: 16),
+            //   ),
+            // ),
             DefaultButton(
               text: "Submit",
               isLoading: false,
